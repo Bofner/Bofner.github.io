@@ -1,0 +1,124 @@
+/* This is the CSS file for steelfingerstudios.com */
+
+/* This is for the big header image at the top of the page */
+.center-fit {
+    max-width: 100%;
+    max-height: auto;
+    margin-top: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+
+.center-text {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+/* Arial font */
+@font-face{
+    font-family: 'roboto';
+    src: url('fonts/roboto.ttf');
+}
+
+/* This is the background color for the body (#0055aa will blend into the top layer) */
+body {
+    height: 100%;
+    margin: 0;
+    background: #4e91ab;
+    font-family: 'roboto';
+    font-size: 24px;
+    color: #d7d7d7;
+}
+
+p{
+    margin: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.leftButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.buttons {
+    font-family: 'roboto';
+    font-size: 36px;
+    background-color: #4e91ab;
+    color: #d7d7d7;
+    border: black;
+    border-radius: 10px;
+    padding: 12px 40px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'roboto';
+    font-size: 36px;
+    background-color: #4e91ab;
+    color: #d7d7d7;
+    border: black;
+    border-radius: 10px;
+    padding: 12px 40px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    display: block;
+    background-color: #176587;
+    color: #FFFFFF;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    color: #d7d7d7;
+    border-radius: 10px;
+    padding: 12px 40px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+  }
+
+.dropdown-content a {
+    color: #d7d7d7;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #176587;
+    color: #FFFFFF;
+  }
+
+  .dropdown:hover .dropdown-content a{
+    display: block;
+    background-color: #176587;
+    color: #FFFFFF;
+  }
+
+.buttons:hover {
+    background-color: #176587;
+    color: #FFFFFF;
+}
+
+
+
+

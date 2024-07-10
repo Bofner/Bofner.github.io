@@ -3,9 +3,13 @@ function trianglePuzzlePage(){
 }
 
 function homePage(){
-    window.location='index.html';
+    window.location='../home/index.html';
 }
 
 function bofnerPage(){
     window.location='bofner.html';
+}
+
+function spaceTonbowPage(){
+    window.location='spaceTonbow.html';
 }
