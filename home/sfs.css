@@ -14,6 +14,13 @@
     width: 15%;
   }
 
+.centerVideo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
 .center-text {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -41,7 +48,19 @@ p{
 }
 
 .container {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.twoVideoColumns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .leftButton {
