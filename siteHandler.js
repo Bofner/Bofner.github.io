@@ -3,7 +3,7 @@ function trianglePuzzlePage(){
 }
 
 function homePage(){
-    window.location='../home/index.html';
+    window.location='../home/home.html';
 }
 
 function bofnerPage(){
@@ -12,4 +12,8 @@ function bofnerPage(){
 
 function spaceTonbowPage(){
     window.location='spaceTonbow.html';
+}
+
+function homePageFromIndex(){
+    window.location='home/home.html';
 }
