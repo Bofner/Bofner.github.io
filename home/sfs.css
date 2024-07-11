@@ -103,6 +103,12 @@ body {
     color: #FFFFFF;
 }
 
+.captionGame{
+    display: block;
+    color: #FFFFFF;
+    font-family: 'steelfingerstudios';
+}
+
 .captionVideo{
     display: block;
     font-size: 36px;
@@ -151,10 +157,47 @@ body {
     cursor: pointer;
 }
 
+.buttonsGame {
+    font-family: 'steelfingerstudios';
+    font-size: 36px;
+    background-color: #4e91ab;
+    color: #d7d7d7;
+    border: black;
+    border-radius: 10px;
+    padding: 12px 40px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #176587;
+    color: #FFFFFF;
+}
+
+.buttonsGame:hover {
+    background-color: #176587;
+    color: #FFFFFF;
+    font-family: 'steelfingerstudios';
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
     font-family: 'roboto';
+    font-size: 36px;
+    background-color: #4e91ab;
+    color: #d7d7d7;
+    border: black;
+    border-radius: 10px;
+    padding: 12px 40px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.dropdownGame {
+    position: relative;
+    display: inline-block;
+    font-family: 'steelfingerstudios';
     font-size: 36px;
     background-color: #4e91ab;
     color: #d7d7d7;
@@ -171,6 +214,13 @@ body {
     color: #FFFFFF;
   }
 
+  .dropdownGame:hover {
+    display: block;
+    font-family: 'steelfingerstudios';
+    background-color: #176587;
+    color: #FFFFFF;
+  }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -183,10 +233,29 @@ body {
     cursor: pointer;
   }
 
+.dropdownGame-content {
+    display: none;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    font-family: 'steelfingerstudios';
+    color: #d7d7d7;
+    border-radius: 10px;
+    padding: 12px 40px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+  }
+
 .dropdown-content a {
     color: #d7d7d7;
     text-decoration: none;
     display: block;
+  }
+  .dropdownGame-content a {
+    color: #d7d7d7;
+    text-decoration: none;
+    display: block;
+    font-family: 'steelfingerstudios';
   }
   
 .dropdown:hover .dropdown-content{
@@ -195,16 +264,26 @@ body {
     color: #FFFFFF;
   }
 
+  .dropdownGame:hover .dropdown-content{
+    display: block;
+    background-color: #176587;
+    color: #FFFFFF;
+    font-family: 'steelfingerstudios';
+  }
+
   .dropdown:hover .dropdown-content a{
     display: block;
     background-color: #176587;
     color: #FFFFFF;
   }
 
-.buttons:hover {
+  .dropdownGame:hover .dropdown-content a{
+    display: block;
     background-color: #176587;
     color: #FFFFFF;
-}
+    font-family: 'steelfingerstudios';
+  }
+
 
 
 
