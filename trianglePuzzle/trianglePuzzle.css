@@ -18,7 +18,7 @@
 /* The official Steelfinger Studios font designed by Bofner */
 @font-face{
     font-family: 'steelfingerstudios';
-    src: url('fonts/Steelfinger Studios.ttf');
+    src: url('Steelfinger Studios.ttf');
 }
 
 /* This is the background color for the body (#0055aa will blend into the top layer) */
